@@ -7,7 +7,7 @@ module Twitter
     module Timelines
       include Twitter::REST::Utils
       DEFAULT_TWEETS_PER_REQUEST = 20
-      MAX_TWEETS_PER_REQUEST = 200
+      MAX_TWEETS_PER_REQUEST = 3200
 
       # Returns the 20 most recent mentions (statuses containing @username) for the authenticating user
       #
